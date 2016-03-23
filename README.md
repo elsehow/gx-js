@@ -1,6 +1,6 @@
 # gx-js
 
-a distributed package manager for javascript
+a distributed package manager for javascript, built on [gx](https://github.com/whyrusleeping/gx)
 
 ## usage
 
