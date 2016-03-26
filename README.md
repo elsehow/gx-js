@@ -10,7 +10,7 @@ will install packages to `./node-modules/` recursively, from ipfs if possible, o
 
 if no package is specified, will install each package in `package.json`
     
-    gx-js publish [name] [-r depth]
+    gx-js publish [-r depth]
     
 publishes to the gx npm repository. the -r flag will recursively publish dependencies to ipfs, up to some maximum depth (0 to publish full dependency tree).
     
