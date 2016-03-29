@@ -2,6 +2,14 @@
 
 a distributed package manager for javascript, built on [gx](https://github.com/whyrusleeping/gx)
 
+## installation
+
+you will need [go-ipfs](https://github.com/ipfs/go-ipfs) > 0.4.0 and [gx](https://github.com/whyrusleeping/gx) > 0.4.0
+
+then, you can just
+
+      gx install --global [gx-js-hash-to-come]
+
 ## usage
 
       gx-js install [package]
