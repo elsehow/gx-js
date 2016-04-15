@@ -14,7 +14,7 @@ then, you can just
 
       gx-js install [package]
     
-will install packages to `./node-modules/` recursively, from ipfs if possible, otherwise from npm.
+will install packages to `./node-modules/` recursively, from gx if possible, otherwise downloading from npm and importing into gx.
 
 if no package is specified, will install each package in `package.json`
     
