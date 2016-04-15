@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# install dep passed in
+npm install $1
+
+# move into the directory we just dl'd
+cd node_modules/$1
+
+# gx-publish this package
+gx publish
